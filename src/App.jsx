@@ -23,5 +23,16 @@ export default function App(){
       </main>
       <Footer />
     </div>
+    <div
+      className="min-h-screen bg-amber-50"
+      style={{
+        backgroundImage: 'url("/pattern-samarkand.png")',
+        backgroundRepeat: 'repeat',
+        backgroundSize: '300px',
+        backgroundAttachment: 'fixed'
+      }}
+    >
+      {/* your routes/components go here */}
+    </div>
   )
 }
