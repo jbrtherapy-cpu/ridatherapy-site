@@ -14,7 +14,8 @@ export default function Header() {
   ];
 
   return (
-    <header className="py-6 px-4 sm:px-10 md:px-20 lg:px-32 text-gray-800">
+    <header className="bg-gradient-to-r from-[#eaf2ed] to-[#d9e8dc] shadow-md py-6 px-8 rounded-b-2xl">
+
       {/* Top Bar — Contact Info */}
       <div className="flex flex-col sm:flex-row items-center justify-between text-sm text-gray-700 mb-4">
         <div className="flex items-center space-x-4">
