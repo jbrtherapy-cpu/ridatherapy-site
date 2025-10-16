@@ -34,8 +34,13 @@ export default function Header() {
       <div className="text-center mb-6">
         <h1 className="text-3xl md:text-4xl font-semibold text-[#1f4037] tracking-wide">
           Rida Psychotherapy & Counselling Service
-v        </h1>
- 
+        </h1>
+
+
+        <p className="text-lg italic text-[#4a645a] mt-1">
+            Talk. Heal. Grow.
+        </p>
+
         <p className="text-sm sm:text-base italic text-emerald-900 mt-1">
           Working together to accept and improve
         </p>
