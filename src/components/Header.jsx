@@ -32,9 +32,10 @@ export default function Header() {
 
       {/* Logo / Title */}
       <div className="text-center mb-6">
-        <h1 className="text-3xl sm:text-4xl font-serif text-emerald-700 tracking-wide">
+        <h1 className="text-3xl md:text-4xl font-semibold text-[#1f4037] tracking-wide">
           Rida Psychotherapy & Counselling Service
-        </h1>
+v        </h1>
+ 
         <p className="text-sm sm:text-base italic text-emerald-900 mt-1">
           Working together to accept and improve
         </p>
