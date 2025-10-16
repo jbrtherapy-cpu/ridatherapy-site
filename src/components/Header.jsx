@@ -15,14 +15,14 @@ export default function Header() {
 
   return (
     <header className="bg-gradient-to-r from-[#eaf2ed] to-[#d9e8dc] shadow-md py-6 px-8 rounded-b-2xl">
-
-      {/* Top Bar — Contact Info */}
+ {/* Top Bar — Contact Info */}
       <div className="flex flex-col sm:flex-row items-center justify-between text-sm text-gray-700 mb-4">
         <div className="flex items-center space-x-4">
           <div className="flex items-center space-x-1">
             <Phone size={16} />
             <span>0782 366 3208</span>
           </div>
+          <div className="bg-[url('/images/geometric-bg.png')] bg-opacity-20 bg-cover bg-center"></div>
           <div className="flex items-center space-x-1">
             <Mail size={16} />
             <span>contact@ridatherapy.com</span>
